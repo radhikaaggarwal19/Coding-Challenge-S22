@@ -1,0 +1,16 @@
+I first uploaded pandas and sklearn. I also imported Logistic Regression, accuracy_score and train_test_split.
+I then uploaded the data from the csv file into a dataset.
+I also had to get dummies for the dataset because Logistic Regression doesn't work as well with strings.
+Following that, I divided the data set into a training set and test set with a 70:30 split.
+
+For the algorithm, I used Logistic Regression.
+I then plotted the training data and used the logistic regression library's fit function to create a line of best fit.
+The main reason I chose logistic regression was due to the fact that the data was primarily non-linear and logistic regression encapsulates many datasets of this form.
+Finally, I used the predict function of the LR library to predict the y_test based off of the X_test.
+
+In conclusion, I calculated the accuracy based on the prior prediction.
+
+
+Resources:
+https://stackoverflow.com/questions/34007308/linear-regression-analysis-with-string-categorical-features-variables
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html
